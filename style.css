@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: rgb(35, 37, 54);
+    padding: 10px 0 10px;
+}
+
+.ota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.bola2 a {
+    color: #fff;
+    font-size: 15px;
+    margin: 0 20px;
+}
+
+.bola3 button {
+    padding: 10px 20px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(15, 19, 56);
+    color: white;
+}
+
+span {
+    color: rgb(133, 133, 13);
+}
+
+.bola5 button {
+    border: none;
+    padding: 10px 20px 10px;
+    margin-top: 40px;
+    background-color: rgb(212, 212, 45);
+    color: rgb(35, 37, 54);
+}
+
+.main-box {
+    background-image: url(./img/rasm-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(35, 37, 54);
+    padding: 50px 0 150px;
+}
+
+.jiyan {
+    margin-top: 40px;
+
+}
+
+.bola76 {
+    margin-top: 40px;
+}
+
+.ogil {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.bola-1 {
+    margin-top: 50px;
+}
+
+.bola-2 {
+    margin-top: 30px;
+}
+
+.bobo-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.bola-56 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.bobo-3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bola-57 {
+    border: 1px solid #000;
+    border: none;
+    padding: 10px 20px 10px;
+    background-color: rgb(255, 208, 80);
+}
+
+.bola-55 {
+    border: 1px solid #000;
+    padding: 10px 20px 10px;
+}
+
+.bola-55 img:hover {
+    box-shadow: 60px #000;
+}
+
+
+hr {
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(35, 37, 54);
+    color: white;
+    padding: 10px 0 10px;
+}
+
+.bola-77 {
+    margin-top: 10px;
+}
+
+.bobo-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------------------------------------------------------Media uchun---------------------------------------- */
+@media (max-width: 610px) {
+    .bola2 {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+    .bobo-2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 950px) {
+    .bobo-3 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 410px) {
+    .bobo-4 {
+        flex-wrap: wrap;
+    }
+}
