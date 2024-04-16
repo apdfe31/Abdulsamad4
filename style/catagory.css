@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-box {
+    background: #F4F0F8;
+    text-align: center;
+    background-size: cover;
+    color: rgb(35, 37, 54);
+    padding: 150px 0 150px;
+}
+
+header {
+    background-color: rgb(35, 37, 54);
+    padding: 10px 0 10px;
+}
+
+.ota {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.bola3 img {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+.bola99 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.bola3 a {
+    color: #fff;
+    font-size: 15px;
+    margin: 0 20px;
+}
+
+.bola3 button {
+    padding: 10px 20px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(15, 19, 56);
+    color: white;
+}
+
+.ota50 {
+    margin-top: 50px;
+}
+
+input {
+    margin-top: 50px;
+    width: 1280px;
+    height: 76px;
+    top: 485px;
+    left: 79px;
+    gap: 0px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    font-size: 20px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: rgb(35, 37, 54);
+    color: white;
+    padding: 10px 0 10px;
+}
+
+.bobo-4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ------------------------------------------------------Media uchun---------------------------------------- */
+@media (max-width: 650px) {
+    .bola3 a {
+        display: none;
+    }
+
+    .bola3 img {
+        display: block;
+    }
+}
+
+@media (max-width: 410px) {
+    .bobo-4 {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1320px) {
+    input {
+        width: 500px;
+    }
+    
+}
